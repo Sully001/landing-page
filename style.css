@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.image {
+    background-color: grey;
+    width: 300px;
+    
+}
+
+.header-text {
+    flex: 0 1 300px;
+}
+
+.header-info {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 3px;
+}
+
+
+/* SECTION 2 */
+
+.section-2 h1 {
+    text-align: center;
+}
