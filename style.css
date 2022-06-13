@@ -25,13 +25,22 @@ ul {
 }
 
 .image {
+    display: flex;
     background-color: grey;
     width: 300px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .header-text {
     flex: 0 1 300px;
+}
+
+.header-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: 'Roboto', arial;
 }
 
 .header-info {
@@ -42,7 +51,8 @@ ul {
 
 button {
     background-color: aqua;
-    border-radius: 3px;
+    border-radius: 5px;
+
 }
 
 
@@ -77,21 +87,43 @@ button {
     display: flex;
     flex-direction: column;
     flex: 1 1 300px;
-    background-color: grey;
-    align-items: flex-end;
-    padding: 100px;   
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 200px;  
 }
 
 .section-3 p {
     font-size: 30px;
 }
 
+.section-3 .para {
+    width: 700px;
+}
+
+
+
+.author { 
+    font-family: 'Roboto', Arial;
+    font-size: 36px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 .message {
     display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 50px 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    justify-content: space-evenly;
 }
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+
 
 footer {
     display: flex;
