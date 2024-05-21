@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    font-weight: bold
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.section1 {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 100px;
+    text-align: left;
+}
+
+
+.image {
+    color: white;
+    background-color: grey;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome > button {
+    background-color: #3882F6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.section2 > h2 {
+    text-align: center;
+}
+
+.image-place {
+    width: 100px;
+    height: 100px;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 175px;
+}
+
+.section3 {
+    background-color: lightgrey;
+    padding: 100px;
+}
+
+.testimonial {
+    font-size: 20px;
+}
+
+.reference {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.call-to-action {
+    margin: 100px;
+    padding: 7px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.call-to-action > button {
+    padding: 5px 10px 5px 10px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
